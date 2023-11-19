@@ -202,10 +202,14 @@ body {
 }
 
 /* =============Advantages============= */
+
+.advantages {
+  padding: 120px 0 120px 0;
+}
+
 .advantages-list {
   display: flex;
   gap: 24px;
-  padding: 120px 0 120px 0;
 }
 
 .advantages-item {
@@ -214,6 +218,11 @@ body {
 
 .advantages-list-item {
   height: 104px;
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.advantages-item-name {
+  margin-bottom: 8px;
 }
 
 /* =============Team============= */
