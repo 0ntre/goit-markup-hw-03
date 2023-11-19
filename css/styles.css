@@ -246,7 +246,7 @@ body {
 
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team-item-person {
