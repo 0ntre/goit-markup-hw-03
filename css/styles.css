@@ -237,6 +237,8 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
+  column-gap: 24px;
 }
 
 .team-header {
@@ -245,8 +247,6 @@ body {
 
 .team-list {
   display: flex;
-  width: calc((100%-72px) / 4);
-  column-gap: 24px;
 }
 
 .team-item-header {
