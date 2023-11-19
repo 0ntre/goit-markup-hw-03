@@ -228,6 +228,7 @@ body {
 /* =============Team============= */
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0 120px 0;
 }
 
 .team-item {
@@ -239,14 +240,13 @@ body {
 }
 
 .team-header {
-  padding: 120px 0 72px 0;
+  margin-bottom: 72px;
 }
 
 .team-list {
   display: flex;
   width: calc((100%-72px) / 4);
   column-gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team-item-header {
