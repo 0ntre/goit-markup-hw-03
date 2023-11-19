@@ -19,6 +19,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -149,6 +151,10 @@ body {
   justify-content: space-between;
 }
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 /* =============Main content============= */
 .banner {
   background-color: #2e2f42;
@@ -256,11 +262,19 @@ body {
   flex-wrap: wrap;
   width: calc((100%-48px) / 3);
   column-gap: 24px;
+  row-gap: 48px;
   padding: 72px 0 120px 0;
 }
 
-.portfolio-list-card {
-  padding-bottom: 48px;
+.card-content {
+  display: flex;
+  padding: 0px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 32px 16px 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 /* =============Footer============= */
